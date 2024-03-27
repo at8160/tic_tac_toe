@@ -1,0 +1,40 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(60, 60, 199);
+  color: white;
+}
+button {
+  background: none;
+  border: none;
+  outline: none;
+}
+button:hover {
+  cursor: pointer;
+}
+.board .board-row{
+    width: 240px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid white ;
+}
+.board .board-row:last-child{
+    border-bottom: none;
+}
+.btn{
+    width: 80px;
+    height: 80px;
+    border-right: 2px solid white;
+    font-size: 2.5rem;
+    padding: 0px;
+    overflow: hidden;
+    transition: all 0.2s;
+}
+.btn:last-child{
+    border-right: none;
+}
+.history{
+  display: flex;
+  align-items: center;
+}
+
